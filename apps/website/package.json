@@ -1,0 +1,15 @@
+{
+  "name": "@lapidist/garnet-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo building",
+    "lint": "echo linting",
+    "fix": "echo fixing",
+    "test": "echo test"
+  },
+  "dependencies": {
+    "@lapidist/garnet-components": "*"
+  },
+  "devDependencies": {}
+}

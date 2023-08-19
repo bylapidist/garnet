@@ -1,0 +1,16 @@
+{
+  "name": "@lapidist/garnet-components",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "echo building",
+    "lint": "echo linting",
+    "fix": "echo fixing",
+    "test": "echo test"
+  },
+  "dependencies": {
+    "@lapidist/garnet-scripts": "*",
+    "@lapidist/garnet-styles": "*",
+    "@lapidist/garnet-types": "*"
+  },
+  "devDependencies": {}
+}
