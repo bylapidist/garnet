@@ -1,0 +1,28 @@
+{
+  "name": "@lapidist/garnet",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:storybook": "npm run build --workspace=apps/storybook",
+    "build:website": "npm run build --workspace=apps/website",
+    "build:components": "npm run build --workspace=packages/components",
+    "build:scripts": "npm run build --workspace=packages/scripts",
+    "build:styles": "npm run build --workspace=packages/styles",
+    "build:types": "npm run build --workspace=packages/types",
+    "lint": "npm run lint --workspaces --if-present",
+    "fix": "npm run fix --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:storybook": "npm run test --workspace=apps/storybook",
+    "test:website": "npm run test --workspace=apps/website",
+    "test:components": "npm run test --workspace=packages/components",
+    "test:scripts": "npm run test --workspace=packages/scripts",
+    "test:styles": "npm run test --workspace=packages/styles",
+    "test:types": "npm run test --workspace=packages/types"
+  },
+  "devDependencies": {}
+}
