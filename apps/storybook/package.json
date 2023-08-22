@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "echo building",
-    "lint": "echo linting",
-    "fix": "echo fixing",
+    "lint": "eslint .",
+    "fix": "npm run lint -- --fix",
     "test": "echo test"
   },
   "dependencies": {
