@@ -4,10 +4,8 @@
   "private": true,
   "main": "index.cjs",
   "scripts": {
-    "build": "echo building",
     "lint": "eslint .",
-    "fix": "eslint . --fix",
-    "test": "echo test"
+    "fix": "eslint . --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "6.4.1",

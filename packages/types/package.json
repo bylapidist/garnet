@@ -3,9 +3,7 @@
   "version": "1.0.0-alpha.0",
   "private": true,
   "scripts": {
-    "build": "echo building",
     "lint": "eslint .",
-    "fix": "eslint . --fix",
-    "test": "echo test"
+    "fix": "eslint . --fix"
   }
 }
