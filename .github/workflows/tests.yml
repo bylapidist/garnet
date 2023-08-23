@@ -1,8 +1,16 @@
 name: Unit tests
 
 on:
+  push:
+    branches:
+      - main
+      - next
   pull_request:
     types: [opened, synchronize, reopened]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
