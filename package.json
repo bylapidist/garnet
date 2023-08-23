@@ -14,7 +14,7 @@
     "typecheck": "npx lerna run typecheck",
     "prepare": "husky install",
     "commit": "cz",
-    "version": "npx lerna version"
+    "lerna:version": "npx lerna version"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
