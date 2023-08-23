@@ -1,15 +1,14 @@
 {
   "name": "@lapidist/garnet-storybook",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.0",
   "private": true,
   "scripts": {
     "build": "echo building",
     "lint": "eslint .",
-    "fix": "npm run lint -- --fix",
+    "fix": "eslint . --fix",
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-components": "*"
-  },
-  "devDependencies": {}
+    "@lapidist/garnet-react": "^1.0.0-alpha.0"
+  }
 }

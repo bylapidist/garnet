@@ -7,13 +7,14 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present",
-    "fix": "npm run fix --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npx lerna run build",
+    "lint": "npx lerna run lint",
+    "fix": "npx lerna run fix",
+    "test": "npx lerna run test",
+    "typecheck": "npx lerna run typecheck",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "lerna:version": "npx lerna version"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
@@ -21,7 +22,8 @@
     "@commitlint/cz-commitlint": "17.7.1",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "8.0.3"
+    "husky": "8.0.3",
+    "lerna": "7.1.5"
   },
   "config": {
     "commitizen": {

@@ -1,12 +1,12 @@
 {
   "name": "@lapidist/eslint-config-garnet",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.0",
   "private": true,
   "main": "index.cjs",
   "scripts": {
     "build": "echo building",
     "lint": "eslint .",
-    "fix": "npm run lint -- --fix",
+    "fix": "eslint . --fix",
     "test": "echo test"
   },
   "dependencies": {
