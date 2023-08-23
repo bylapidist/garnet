@@ -1,5 +1,5 @@
 {
-  "name": "@lapidist/garnet-components",
+  "name": "@lapidist/garnet-react",
   "version": "0.0.0",
   "scripts": {
     "build": "echo building",
@@ -8,9 +8,12 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/eslint-config-garnet": "*",
-    "@lapidist/garnet-scripts": "*",
     "@lapidist/garnet-styles": "*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@lapidist/garnet-scripts": "*",
     "@lapidist/garnet-types": "*"
   }
 }
