@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-website",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "private": true,
   "scripts": {
     "build": "echo building",
@@ -9,6 +9,6 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^1.0.0-alpha.0"
+    "@lapidist/garnet-react": "^1.0.0-alpha.1"
   }
 }
