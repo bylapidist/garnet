@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-react",
-  "version": "0.1.0-beta.0",
+  "version": "0.0.0",
   "scripts": {
     "build": "echo building",
     "lint": "eslint .",
@@ -8,12 +8,12 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-styles": "^0.1.0-beta.0",
+    "@lapidist/garnet-styles": "^0.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@lapidist/garnet-scripts": "^0.1.0-beta.0",
-    "@lapidist/garnet-types": "^0.1.0-beta.0"
+    "@lapidist/garnet-scripts": "^0.0.0",
+    "@lapidist/garnet-types": "^0.0.0"
   }
 }
