@@ -19,8 +19,7 @@ module.exports = {
     react: {
       pragma: 'React',
       version: 'detect',
-    },
-    'mdx/code-blocks': true,
+    }
   },
   extends: [
     'eslint:recommended',
@@ -60,11 +59,6 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
       },
-    },
-    {
-      files: ['*.mdx', '*.md'],
-      parser: 'eslint-mdx',
-      extends: 'plugin:mdx/recommended',
-    },
+    }
   ],
 };
