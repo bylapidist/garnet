@@ -19,7 +19,7 @@ module.exports = {
     react: {
       pragma: 'React',
       version: 'detect',
-    }
+    },
   },
   extends: [
     'eslint:recommended',
@@ -59,6 +59,6 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
       },
-    }
+    },
   ],
 };
