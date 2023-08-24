@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-storybook",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.0",
   "private": true,
   "scripts": {
     "build": "echo building",
@@ -9,6 +9,6 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.0.0"
+    "@lapidist/garnet-react": "^0.1.0-beta.0"
   }
 }
