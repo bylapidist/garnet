@@ -1,4 +1,4 @@
 module.exports = {
-  root: true,
-  extends: ['@lapidist/garnet'],
+    root: true,
+    extends: ['@lapidist/garnet'],
 };

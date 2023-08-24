@@ -1,7 +1,20 @@
 {
   "name": "@lapidist/garnet-scripts",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "private": true,
+  "author": {
+    "name": "Brett Dorrans",
+    "email": "hello@lapidist.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bylapidist/garnet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bylapidist/garnet/issues"
+  },
+  "homepage": "https://github.com/bylapidist/garnet#readme",
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint . --fix",
