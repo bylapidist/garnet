@@ -12,7 +12,7 @@
     "fix": "npx lerna run fix",
     "test": "npx lerna run test",
     "typecheck": "npx lerna run typecheck",
-    "prepare": "husky install",
+    "prepare": "test -d node_modules/husky && husky install",
     "commit": "cz",
     "lerna:version": "npx lerna version"
   },
