@@ -5,16 +5,13 @@ on:
     branches:
       - main
       - next
-  pull_request:
+  pull_request_target:
     types: [closed]
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
-  cancel-in-progress: true
 
 jobs:
   publish:
     name: Version and publish
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -39,7 +36,6 @@ jobs:
           restore-keys: ${{ runner.os }}-node-
 
       - name: Version and publish
-        if: github.event.pull_request.merged
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
