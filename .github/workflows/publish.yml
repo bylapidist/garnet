@@ -36,6 +36,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Version and publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -48,5 +51,5 @@ jobs:
           else
             npx lerna version --conventional-commits --conventional-graduate --yes
           fi
-  
+
           npx lerna publish from-git --yes
