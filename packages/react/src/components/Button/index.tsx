@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Button = () => {
-    return <button type="button">hi</button>;
+export interface ButtonProps {
+    type: 'button' | 'submit';
+}
+
+const Button = (props: ButtonProps) => {
+    return <button type={props.type}>hi</button>;
 };
 
 export default Button;
