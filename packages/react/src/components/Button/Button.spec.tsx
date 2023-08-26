@@ -9,7 +9,7 @@ const setup = (Component: React.ReactElement) => render(Component);
 
 describe('Button', () => {
     test('it matches snapshot', () => {
-        const { container } = setup(<Button />);
+        const { container } = setup(<Button type="button" />);
         expect(screen.getByRole('button')).toBeTruthy();
         expect(container.firstChild).toMatchSnapshot();
     });
