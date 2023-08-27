@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-vue",
-  "version": "0.0.0",
+  "version": "0.2.3",
   "description": "Lapidist components",
   "author": {
     "name": "Brett Dorrans",
@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@lapidist/garnet-scripts": "^0.2.0",
-    "@lapidist/garnet-types": "^0.2.0"
+    "@lapidist/garnet-types": "^0.2.3"
   },
   "peerDependencies": {
     "vue": "3.x"
