@@ -1,3 +1,9 @@
 <script setup lang="ts">
-const props = defineProps<{ type: 'button' | 'submit' }>()
+    import { ButtonProps } from '@lapidist/garnet-types';
+
+    defineProps<ButtonProps>()
 </script>
+
+<template>
+    <button :type="type">hi</button>
+</template>
