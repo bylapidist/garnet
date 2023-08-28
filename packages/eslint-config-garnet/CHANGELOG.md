@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/bylapidist/garnet/compare/v0.2.3...v0.2.4) (2023-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v6.5.0 ([5b80215](https://github.com/bylapidist/garnet/commit/5b802156ffe7c74b0cb827faf8a8ee74a89fb9d5))
+
+
+
+
+
 ## [0.2.2](https://github.com/bylapidist/garnet/compare/v0.2.1...v0.2.2) (2023-08-27)
 
 
