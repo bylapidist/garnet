@@ -29,6 +29,7 @@ module.exports = {
         'plugin:@typescript-eslint/stylistic',
         'plugin:prettier/recommended',
         'plugin:compat/recommended',
+        'plugin:storybook/recommended',
     ],
     plugins: [
         '@typescript-eslint',
@@ -39,6 +40,7 @@ module.exports = {
         'react',
         'react-hooks',
         'compat',
+        'storybook',
     ],
     rules: {
         'prettier/prettier': ['error', { singleQuote: true, semi: true }],
