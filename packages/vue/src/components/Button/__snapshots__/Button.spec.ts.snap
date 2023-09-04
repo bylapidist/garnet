@@ -1,3 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`Button > it matches snapshot 1`] = `"<button type=\\"button\\">hi</button>"`;
