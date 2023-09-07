@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/bylapidist/garnet/compare/v0.2.4...v0.2.5) (2023-09-07)
+
+**Note:** Version bump only for package @lapidist/eslint-config-garnet
+
+
+
+
+
 ## [0.2.4](https://github.com/bylapidist/garnet/compare/v0.2.3...v0.2.4) (2023-08-28)
 
 

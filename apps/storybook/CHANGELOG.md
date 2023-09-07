@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/bylapidist/garnet/compare/v0.2.4...v0.2.5) (2023-09-07)
+
+
+### Reverts
+
+* **vue:** remove vue and storybook-vue packages, rename storybook-react to storybook ([c500c64](https://github.com/bylapidist/garnet/commit/c500c64b4bb610e89ec2e723c88b148716b7a849))
+
+
+
+
+
 ## [0.2.3](https://github.com/bylapidist/garnet/compare/v0.2.2...v0.2.3) (2023-08-27)
 
 **Note:** Version bump only for package @lapidist/garnet-storybook-react
