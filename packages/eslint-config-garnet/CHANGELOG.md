@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.20](https://github.com/bylapidist/garnet/compare/v0.2.19...v0.2.20) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.52.0 ([b87fe23](https://github.com/bylapidist/garnet/commit/b87fe2346344698d34dfde3a69ce03798806b36b))
+
+
+
+
+
 ## [0.2.19](https://github.com/bylapidist/garnet/compare/v0.2.18...v0.2.19) (2023-10-16)
 
 
