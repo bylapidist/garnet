@@ -1,5 +1,5 @@
 {
-  "name": "@lapidist/garnet-styles",
+  "name": "@lapidist/garnet-tokens",
   "version": "0.2.0",
   "private": true,
   "author": {
@@ -15,10 +15,13 @@
     "url": "https://github.com/bylapidist/garnet/issues"
   },
   "homepage": "https://github.com/bylapidist/garnet#readme",
+  "main": "dist",
   "scripts": {
-    "build": "echo building",
+    "build": "node build.cjs",
     "lint": "eslint .",
-    "fix": "eslint . --fix",
-    "test": "echo test"
+    "fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "style-dictionary": "3.9.0"
   }
 }
