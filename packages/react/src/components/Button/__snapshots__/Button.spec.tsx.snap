@@ -2,8 +2,9 @@
 
 exports[`Button > it matches snapshot 1`] = `
 <button
+  class="_button_fd79ec"
   type="button"
 >
-  hi
+  hello
 </button>
 `;

@@ -17,7 +17,7 @@
   "homepage": "https://github.com/bylapidist/garnet#readme",
   "scripts": {
     "storybook": "storybook dev --port 6006",
-    "build": "storybook build",
+    "build:storybook": "storybook build",
     "lint": "eslint .",
     "fix": "eslint . --fix",
     "test": "echo test"

@@ -1,5 +1,4 @@
 const StyleDictionary = require('style-dictionary');
-const fs = require('fs');
 
 /**
  * Build a CSS platform with specified source, destination, and selector.
@@ -20,12 +19,12 @@ const buildCssPlatform = (sourcePath, destination, selector = '') => {
                         format: 'css/variables',
                         options: {
                             outputReferences: true,
-                            selector
-                        }
-                    }
-                ]
-            }
-        }
+                            selector,
+                        },
+                    },
+                ],
+            },
+        },
     }).buildAllPlatforms();
 };
 

@@ -1,8 +1,14 @@
 import React from 'react';
 import { ButtonProps } from '@lapidist/garnet-types';
 
-const Button = (props: ButtonProps) => {
-    return <button type={props.type}>hi</button>;
+import styles from '@lapidist/garnet-styles/dist/components/button.module.css';
+
+const Button = (props: React.PropsWithChildren<ButtonProps>) => {
+    return (
+        <button className={styles.button} type={props.type}>
+            hello
+        </button>
+    );
 };
 
 export default Button;

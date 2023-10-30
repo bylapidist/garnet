@@ -1,0 +1,44 @@
+.button {
+    --text-color-primary: var(--colour-neutral-lightest);
+    --text-color-secondary: var(--colour-primary-darkest);
+    --text-color-tertiary: var(--colour-neutral-darkest);
+    --text-color-danger: var(--colour-danger-darkest);
+    --background-color-primary: var(--colour-primary-darkest);
+    --background-color-secondary: var(--colour-neutral-lightest);
+    --background-color-tertiary: var(--colour-neutral-lightest);
+    --background-color-danger: var(--colour-neutral-lightest);
+    --border-color-primary: var(--colour-primary-darkest);
+    --border-color-secondary: var(--colour-primary-dark);
+    --border-color-tertiary: var(--colour-neutral-dark);
+    --border-color-danger: var(--colour-danger-dark);
+    --border-hover-color-primary: var(--colour-neutral-darkest);
+    --border-hover-color-secondary: var(--colour-primary-darkest);
+    --border-hover-color-tertiary: var(--colour-neutral-darkest);
+    --border-hover-color-danger: var(--colour-danger-darkest);
+
+    display: inline-flex;
+    transition: box-shadow var(--transition-ease-in-slow);
+    border-radius: var(--border-radius-squarer);
+
+    &:disabled {
+        opacity: 0.75;
+    }
+
+    &:disabled > :not(.level-primary) {
+        background-color: var(--colour-neutral-light);
+    }
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        transition: box-shadow var(--transition-ease-out-slow);
+        box-shadow: var(--elevation-higher);
+
+        &:disabled { cursor: not-allowed; }
+    }
+
+    &.block {
+        display: block;
+        width: 100%;
+    }
+}
