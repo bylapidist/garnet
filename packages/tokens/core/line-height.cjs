@@ -1,19 +1,19 @@
 module.exports = {
     'line-height': {
         none: {
-            value: '1'
+            value: '1',
         },
         tightest: {
-            value: '1.25'
+            value: '1.25',
         },
         tighter: {
-            value: '1.375'
+            value: '1.375',
         },
         looser: {
-            value: '1.5'
+            value: '1.5',
         },
         loosest: {
-            value: '2'
-        }
-    }
+            value: '2',
+        },
+    },
 };

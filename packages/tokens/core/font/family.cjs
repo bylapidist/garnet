@@ -2,17 +2,17 @@ module.exports = {
     font: {
         family: {
             body: {
-                value: 'Montserrat, sans-serif'
+                value: 'Montserrat, sans-serif',
             },
             heading: {
-                value: `'Albert Sans', sans-serif`
+                value: `'Albert Sans', sans-serif`,
             },
             serif: {
-                value: 'Georgia, Cambria, serif'
+                value: 'Georgia, Cambria, serif',
             },
             mono: {
-                value: 'Consolas, Courier, monospace'
-            }
-        }
-    }
+                value: 'Consolas, Courier, monospace',
+            },
+        },
+    },
 };
