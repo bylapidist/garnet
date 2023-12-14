@@ -38,6 +38,10 @@
     ".": {
       "require": "./dist/index.umd.js",
       "import": "./dist/index.es.js"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
     }
   },
   "scripts": {
