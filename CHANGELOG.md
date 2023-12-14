@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/bylapidist/garnet/compare/v0.2.23...v0.3.0) (2023-12-13)
+
+
+### Features
+
+* **tokens:** add tokens package ([53f13b3](https://github.com/bylapidist/garnet/commit/53f13b310df90fd37cd811a0a142efb3500bcb55))
+
+
+
+
+
 ## [0.2.23](https://github.com/bylapidist/garnet/compare/v0.2.22...v0.2.23) (2023-10-29)
 
 **Note:** Version bump only for package @lapidist/garnet
