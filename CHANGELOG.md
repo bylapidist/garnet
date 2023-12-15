@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/bylapidist/garnet/compare/v0.3.0...v0.3.1) (2023-12-15)
+
+
+### Bug Fixes
+
+* botched lockfile ([28ddd93](https://github.com/bylapidist/garnet/commit/28ddd93e6aa08adb58fdb8921e5ecfe14f9d2da8))
+* **deps:** update dependency eslint-plugin-import to v2.29.1 ([49184b0](https://github.com/bylapidist/garnet/commit/49184b0138ebeaa19afa98a97c33f59594f52884))
+
+
+### Features
+
+* disable guard on pr merge ([a459524](https://github.com/bylapidist/garnet/commit/a459524adf39a1805e055482afeb396d4db41aba))
+* force release ([2ab7c41](https://github.com/bylapidist/garnet/commit/2ab7c4157036507a3632e091b5f6b055955e20ed))
+
+
+
+
+
 # [0.3.0](https://github.com/bylapidist/garnet/compare/v0.2.23...v0.3.0) (2023-12-13)
 
 

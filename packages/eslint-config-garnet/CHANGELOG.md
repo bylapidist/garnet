@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/bylapidist/garnet/compare/v0.3.0...v0.3.1) (2023-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.29.1 ([49184b0](https://github.com/bylapidist/garnet/commit/49184b0138ebeaa19afa98a97c33f59594f52884))
+
+
+
+
+
 # [0.3.0](https://github.com/bylapidist/garnet/compare/v0.2.23...v0.3.0) (2023-12-13)
 
 **Note:** Version bump only for package @lapidist/eslint-config-garnet
