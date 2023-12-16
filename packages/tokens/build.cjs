@@ -32,5 +32,6 @@ const buildCssPlatform = (sourcePath, destination, selector = '') => {
 buildCssPlatform('core/**/*.cjs', 'core.css');
 
 // Build the light and dark specific tokens
+// @todo make this generic
 buildCssPlatform('theme/light/**/*.cjs', 'light.css', '.theme-light');
 buildCssPlatform('theme/dark/**/*.cjs', 'dark.css', '.theme-dark');
