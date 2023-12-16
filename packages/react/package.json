@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@lapidist/garnet-tokens": "^0.4.0",
+    "@lapidist/garnet-styles": "^0.4.0",
     "react": "18.x",
     "react-dom": "18.x"
   },
