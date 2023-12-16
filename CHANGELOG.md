@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/bylapidist/garnet/compare/v0.3.4...v0.4.0) (2023-12-16)
+
+
+### Bug Fixes
+
+* **lockfile:** fix broken lockfile ([f537a7f](https://github.com/bylapidist/garnet/commit/f537a7f625301eebeb732e6a65a10f68a4216729))
+
+
+### Features
+
+* **styles:** implement styles and hot reloading ([3cc4cac](https://github.com/bylapidist/garnet/commit/3cc4cacb42ab61bbc43ee9b614c00705b113c46a))
+
+
+
+
+
 ## [0.3.4](https://github.com/bylapidist/garnet/compare/v0.3.3...v0.3.4) (2023-12-16)
 
 
