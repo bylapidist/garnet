@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/bylapidist/garnet/compare/v0.3.3...v0.3.4) (2023-12-16)
+
+
+### Bug Fixes
+
+* Update gh-release.yml ([f0c58c8](https://github.com/bylapidist/garnet/commit/f0c58c869b169af403d41f76698c23ff710ee7fe))
+* Update README.md ([b386522](https://github.com/bylapidist/garnet/commit/b386522004d33b1f9a05d8b69c6071521f5aeb0d))
+* Update README.md ([b6cae26](https://github.com/bylapidist/garnet/commit/b6cae266a5aafe8435f08037e48fb9e1ed2d7cae))
+
+
+### Features
+
+* Create gh-release.yml ([2df6897](https://github.com/bylapidist/garnet/commit/2df68970ee6fa12cb58bfc6efddacf9b1ea02131))
+
+
+
+
+
 ## [0.3.3](https://github.com/bylapidist/garnet/compare/v0.3.2...v0.3.3) (2023-12-16)
 
 

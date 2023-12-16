@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-react",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "description": "Lapidist components",
   "author": {
     "name": "Brett Dorrans",
@@ -51,7 +51,7 @@
     "snapshots": "vitest run --update"
   },
   "dependencies": {
-    "@lapidist/garnet-tokens": "^0.3.0",
+    "@lapidist/garnet-tokens": "^0.3.4",
     "react": "18.x",
     "react-dom": "18.x"
   },

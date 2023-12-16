@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/bylapidist/garnet/compare/v0.3.3...v0.3.4) (2023-12-16)
+
+
+### Bug Fixes
+
+* Update README.md ([b386522](https://github.com/bylapidist/garnet/commit/b386522004d33b1f9a05d8b69c6071521f5aeb0d))
+
+
+
+
+
 # [0.3.0](https://github.com/bylapidist/garnet/compare/v0.2.23...v0.3.0) (2023-12-13)
 
 
