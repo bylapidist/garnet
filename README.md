@@ -1,1 +1,1 @@
-# garnet
+# @lapidist/garnet
