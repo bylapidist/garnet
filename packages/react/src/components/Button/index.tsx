@@ -6,7 +6,7 @@ import styles from '@lapidist/garnet-styles/dist/components/button.module.css';
 const Button = (props: React.PropsWithChildren<ButtonProps>) => {
     return (
         <button className={styles.button} type={props.type}>
-            hello2
+            hello
         </button>
     );
 };

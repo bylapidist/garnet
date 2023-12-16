@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-storybook",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -23,29 +23,29 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.3.0",
+    "@lapidist/garnet-react": "^0.3.4",
     "react": "18.x",
     "react-dom": "18.x"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "7.6.4",
-    "@storybook/addon-backgrounds": "7.6.4",
-    "@storybook/addon-controls": "7.6.4",
-    "@storybook/addon-docs": "7.6.4",
-    "@storybook/addon-highlight": "7.6.4",
-    "@storybook/addon-links": "7.6.4",
-    "@storybook/addon-measure": "7.6.4",
-    "@storybook/addon-outline": "7.6.4",
-    "@storybook/addon-toolbars": "7.6.4",
-    "@storybook/addon-viewport": "7.6.4",
-    "@storybook/addons": "7.6.4",
-    "@storybook/api": "7.6.4",
-    "@storybook/blocks": "7.6.4",
-    "@storybook/cli": "7.6.4",
-    "@storybook/core-common": "7.6.4",
-    "@storybook/node-logger": "7.6.4",
-    "@storybook/react-vite": "7.6.4",
-    "@storybook/theming": "7.6.4",
-    "storybook": "7.6.4"
+    "@storybook/addon-a11y": "7.6.5",
+    "@storybook/addon-backgrounds": "7.6.5",
+    "@storybook/addon-controls": "7.6.5",
+    "@storybook/addon-docs": "7.6.5",
+    "@storybook/addon-highlight": "7.6.5",
+    "@storybook/addon-links": "7.6.5",
+    "@storybook/addon-measure": "7.6.5",
+    "@storybook/addon-outline": "7.6.5",
+    "@storybook/addon-toolbars": "7.6.5",
+    "@storybook/addon-viewport": "7.6.5",
+    "@storybook/addons": "7.6.5",
+    "@storybook/api": "7.6.5",
+    "@storybook/blocks": "7.6.5",
+    "@storybook/cli": "7.6.5",
+    "@storybook/core-common": "7.6.5",
+    "@storybook/node-logger": "7.6.5",
+    "@storybook/react-vite": "7.6.5",
+    "@storybook/theming": "7.6.5",
+    "storybook": "7.6.5"
   }
 }
