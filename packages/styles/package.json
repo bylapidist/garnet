@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-styles",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -24,11 +24,11 @@
     "fix": "eslint . --fix"
   },
   "dependencies": {
-    "@lapidist/garnet-tokens": "*"
+    "@lapidist/garnet-tokens": "^0.4.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.16",
-    "fast-glob": "3.3.1",
+    "fast-glob": "3.3.2",
     "postcss": "8.4.31",
     "postcss-import": "15.1.0",
     "postcss-nested": "6.0.1",
