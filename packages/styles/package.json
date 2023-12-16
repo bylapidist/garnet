@@ -19,6 +19,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && node build.cjs",
+    "watch": "nodemon --watch src -e css ./build.cjs",
     "lint": "eslint .",
     "fix": "eslint . --fix"
   },
