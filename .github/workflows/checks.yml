@@ -48,3 +48,6 @@ jobs:
 
       - name: Run tests
         run: npm run test
+
+      - name: Run Chromatic
+        run: npm run chromatic

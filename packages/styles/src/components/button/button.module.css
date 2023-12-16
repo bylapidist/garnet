@@ -20,6 +20,8 @@
     transition: box-shadow var(--transition-ease-in-slow);
     border-radius: var(--border-radius-squarer);
 
+    font-size: 48px;
+
     &:disabled {
         opacity: 0.75;
     }

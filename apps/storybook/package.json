@@ -20,7 +20,8 @@
     "build:storybook": "storybook build",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "test": "echo test"
+    "test": "echo test",
+    "chromatic": "npx chromatic --build-script-name=build:storybook"
   },
   "dependencies": {
     "@lapidist/garnet-react": "^0.3.4",
@@ -46,6 +47,9 @@
     "@storybook/node-logger": "7.6.5",
     "@storybook/react-vite": "7.6.5",
     "@storybook/theming": "7.6.5",
+    "chromatic": "10.1.0",
     "storybook": "7.6.5"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@lapidist/garnet-storybook@0.3.4"
 }
