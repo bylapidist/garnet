@@ -38,11 +38,17 @@
     ".": {
       "require": "./dist/index.umd.js",
       "import": "./dist/index.es.js"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
     }
   },
   "scripts": {
     "build": "tsc && vite build",
-    "watch": "tsc -w",
+    "watch": "concurrently npm:watch:ts npm:watch:vite",
+    "watch:ts": "tsc -w",
+    "watch:vite": "vite build --watch",
     "watch:tests": "vitest",
     "lint": "eslint .",
     "fix": "eslint . --fix",
