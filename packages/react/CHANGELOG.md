@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/bylapidist/garnet/compare/v0.4.1...v0.4.2) (2023-12-16)
+
+
+### Bug Fixes
+
+* missing garnet-styles dependency ([3c2d6de](https://github.com/bylapidist/garnet/commit/3c2d6de947e6250aac3eb8b7b1382ec126196bbd))
+
+
+
+
+
 # [0.4.0](https://github.com/bylapidist/garnet/compare/v0.3.4...v0.4.0) (2023-12-16)
 
 
