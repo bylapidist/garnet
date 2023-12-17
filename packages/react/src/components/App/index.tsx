@@ -1,10 +1,10 @@
 import React from 'react';
 import { AppProps } from '@lapidist/garnet-types';
 
-import '@lapidist/garnet-tokens/dist/core.css';
-import '@lapidist/garnet-tokens/dist/light.css';
-import '@lapidist/garnet-tokens/dist/dark.css';
-import '@lapidist/garnet-styles/dist/global.css';
+import '@lapidist/garnet-tokens/core.css';
+import '@lapidist/garnet-tokens/light.css';
+import '@lapidist/garnet-tokens/dark.css';
+import '@lapidist/garnet-styles/global.css';
 
 const App = ({
     theme = 'light',
