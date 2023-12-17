@@ -16,6 +16,9 @@
   },
   "homepage": "https://github.com/bylapidist/garnet#readme",
   "main": "dist",
+  "exports": {
+    "./*.css": "./dist/*.css"
+  },
   "scripts": {
     "build": "node build.cjs",
     "lint": "eslint .",

@@ -16,6 +16,10 @@
   },
   "homepage": "https://github.com/bylapidist/garnet#readme",
   "main": "dist",
+  "exports": {
+    "./*.css": "./dist/*.css",
+    "./components/*.css": "./dist/components/*.css"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && node build.cjs",
