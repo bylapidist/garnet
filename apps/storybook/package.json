@@ -47,7 +47,7 @@
     "@storybook/node-logger": "7.6.7",
     "@storybook/react-vite": "7.6.7",
     "@storybook/theming": "7.6.7",
-    "chromatic": "10.2.0",
+    "chromatic": "10.2.1",
     "storybook": "7.6.7"
   },
   "readme": "ERROR: No README data found!",
