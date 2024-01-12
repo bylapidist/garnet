@@ -8,7 +8,7 @@
 
 <div align="center">
 
-Opinionated and flexible design system.
+(WIP) Opinionated and flexible design system.
 
 [![Build Status](https://github.com/bylapidist/garnet/workflows/Checks/badge.svg)](https://github.com/bylapidist/components/actions?query=workflow%3AChecks)
 
