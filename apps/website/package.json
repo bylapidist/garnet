@@ -16,12 +16,14 @@
   },
   "homepage": "https://github.com/bylapidist/garnet#readme",
   "scripts": {
-    "build": "echo building",
+    "dev": "next dev",
+    "build": "next build",
     "lint": "eslint .",
     "fix": "eslint . --fix",
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.4.20"
+    "@lapidist/garnet-react": "^0.4.20",
+    "next": "^14.0.4"
   }
 }

@@ -20,6 +20,9 @@ module.exports = {
             pragma: 'React',
             version: 'detect',
         },
+        next: {
+            rootDir: 'apps/website/*',
+        },
     },
     extends: [
         'eslint:recommended',
@@ -30,6 +33,7 @@ module.exports = {
         'plugin:prettier/recommended',
         'plugin:compat/recommended',
         'plugin:storybook/recommended',
+        'plugin:@next/next/recommended',
     ],
     plugins: [
         '@typescript-eslint',
@@ -41,6 +45,7 @@ module.exports = {
         'react-hooks',
         'compat',
         'storybook',
+        '@next/next',
     ],
     rules: {
         'prettier/prettier': ['error', { singleQuote: true, semi: true }],
