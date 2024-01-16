@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/bylapidist/garnet/compare/v0.4.23...v0.5.0) (2024-01-16)
+
+
+### Features
+
+* **apps/website:** add nextjs scaffolding to apps/website package ([ffca25b](https://github.com/bylapidist/garnet/commit/ffca25b89d56e470543b92cf3739fe3ce31c738e))
+
+
+
+
+
 ## [0.4.23](https://github.com/bylapidist/garnet/compare/v0.4.22...v0.4.23) (2024-01-16)
 
 **Note:** Version bump only for package @lapidist/garnet
