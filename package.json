@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "storybook": "npx lerna run storybook",
+    "dev": "npx lerna run dev",
     "build": "npx lerna run build",
     "lint": "npx lerna run lint",
     "fix": "npx lerna run fix",
