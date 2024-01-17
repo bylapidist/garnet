@@ -62,7 +62,6 @@ Our custom ESLint configuration for maintaining code quality.
 #### Usage
 
 ```json
-// .eslintrc.json
 {
   "extends": "@lapidist/garnet"
 }
@@ -104,8 +103,6 @@ Shared TypeScript types, including props for components.
 ---
 
 ## Development
-
-Here are some essential npm scripts to kickstart the development process:
 
 | Command             | Description                                                                              |
 |---------------------|------------------------------------------------------------------------------------------|
