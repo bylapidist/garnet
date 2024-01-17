@@ -16,7 +16,7 @@ Opinionated and flexible design system by Lapidist.
 
 ## Overview
 
-Welcome to the **@lapidist/garnet** monorepo, the hub for the Garnet Design System. This repository is organized into various packages and applications to streamline development, documentation, and maintenance.
+Welcome to the **@lapidist/garnet** monorepo, the hub for the Garnet Design System. This repository is organizd into various packages and applications to streamline development, documentation, and maintenance.
 
 ### Table of Contents
 
