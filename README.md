@@ -31,8 +31,6 @@ Welcome to the **@lapidist/garnet** monorepo, the hub for the Garnet Design Syst
     - [types](#types)
 - [Development](#development)
 
----
-
 ## Applications
 
 ### Storybook
@@ -54,8 +52,6 @@ The public documentation website built with Next.js.
 ```bash
 npm run dev
 ```
-
----
 
 ## Packages
 
