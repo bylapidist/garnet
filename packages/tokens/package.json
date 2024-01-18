@@ -25,6 +25,6 @@
     "fix": "eslint . --fix"
   },
   "devDependencies": {
-    "style-dictionary": "3.9.1"
+    "style-dictionary": "3.9.2"
   }
 }
