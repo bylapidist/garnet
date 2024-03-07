@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.40](https://github.com/bylapidist/garnet/compare/v0.5.39...v0.5.40) (2024-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update nextjs monorepo to v14.1.3 ([5843a13](https://github.com/bylapidist/garnet/commit/5843a139de2168c9f17613797725f28d671e55f6))
+
+
+
+
+
 ## [0.5.39](https://github.com/bylapidist/garnet/compare/v0.5.38...v0.5.39) (2024-03-05)
 
 
