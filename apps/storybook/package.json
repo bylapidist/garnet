@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-storybook",
-  "version": "0.5.43",
+  "version": "0.5.45",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -24,7 +24,7 @@
     "chromatic": "npx chromatic --build-script-name=build:storybook"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.5.41",
+    "@lapidist/garnet-react": "^0.5.45",
     "react": "18.x",
     "react-dom": "18.x"
   },
