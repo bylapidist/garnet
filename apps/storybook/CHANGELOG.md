@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.47](https://github.com/bylapidist/garnet/compare/v0.5.46...v0.5.47) (2024-03-16)
+
+**Note:** Version bump only for package @lapidist/garnet-storybook
+
+
+
+
+
 ## [0.5.45](https://github.com/bylapidist/garnet/compare/v0.5.44...v0.5.45) (2024-03-13)
 
 **Note:** Version bump only for package @lapidist/garnet-storybook
