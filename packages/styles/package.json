@@ -34,7 +34,7 @@
     "autoprefixer": "10.4.18",
     "fast-glob": "3.3.2",
     "postcss": "8.4.37",
-    "postcss-import": "16.0.1",
+    "postcss-import": "16.1.0",
     "postcss-nested": "6.0.1",
     "postcss-preset-env": "9.5.2",
     "postcss-sorting": "8.0.2",
