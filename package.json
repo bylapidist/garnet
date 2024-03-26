@@ -43,7 +43,7 @@
     "@commitlint/config-conventional": "19.1.0",
     "@commitlint/cz-commitlint": "19.2.0",
     "@testing-library/react": "14.2.2",
-    "@types/react": "18.2.70",
+    "@types/react": "18.2.71",
     "@types/react-dom": "18.2.22",
     "@vitejs/plugin-react": "4.2.1",
     "@vitest/coverage-v8": "1.4.0",
