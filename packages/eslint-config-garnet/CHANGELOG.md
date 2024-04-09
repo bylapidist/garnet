@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.70](https://github.com/bylapidist/garnet/compare/v0.5.69...v0.5.70) (2024-04-09)
+
+
+### Bug Fixes
+
+* **deps:** replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0 ([bdbcd3e](https://github.com/bylapidist/garnet/commit/bdbcd3e3f748f8a26b5b0d6d8db683e7b62e723e))
+
+
+
+
+
 ## [0.5.69](https://github.com/bylapidist/garnet/compare/v0.5.68...v0.5.69) (2024-04-08)
 
 
