@@ -2,7 +2,7 @@
 
 exports[`Text > it matches snapshot 1`] = `
 <p
-  class="_text_c3d3d8"
+  class="_text_36ca96"
 >
   {"children":"Hello world"}
 </p>
