@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/bylapidist/garnet/compare/v0.6.2...v0.7.0) (2024-04-10)
+
+
+### Features
+
+* **text:** implement Text variants ([b8d2a19](https://github.com/bylapidist/garnet/commit/b8d2a1960f3b99b8b58ea1b6a39ad387cc3048d1))
+
+
+
+
+
 # [0.6.0](https://github.com/bylapidist/garnet/compare/v0.5.71...v0.6.0) (2024-04-10)
 
 
