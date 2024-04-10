@@ -1,1 +1,45 @@
-.text {}
+.this {
+    color: var(--colour-neutral-darkest);
+    line-height: var(--line-height-looser);
+    letter-spacing: var(--letter-spacing-looser);
+}
+
+.size-small {
+    font-size: var(--font-size-200);
+}
+
+.size-medium {
+    font-size: var(--font-size-300);
+}
+
+.size-large {
+    font-size: var(--font-size-400);
+}
+
+.family-body {
+    font-family: var(--font-family-body);
+}
+
+.family-heading {
+    font-family: var(--font-family-heading);
+}
+
+.family-serif {
+    font-family: var(--font-family-serif);
+}
+
+.family-mono {
+    font-family: var(--font-family-mono);
+}
+
+.weight-regular {
+    font-weight: var(--font-weight-400);
+}
+
+.weight-medium {
+    font-weight: var(--font-weight-500);
+}
+
+.weight-bold {
+    font-weight: var(--font-weight-700);
+}
