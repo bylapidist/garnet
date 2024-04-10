@@ -1,9 +1,100 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Text > it matches snapshot 1`] = `
-<p
-  class="_text_36ca96"
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
 >
-  {"children":"Hello world"}
-</p>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with families 1`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with families 2`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-heading_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with families 3`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-serif_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with families 4`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-mono_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with sizes 1`] = `
+<div
+  class="_this_36ca96 _size-small_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with sizes 2`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with sizes 3`] = `
+<div
+  class="_this_36ca96 _size-large_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with weights 1`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with weights 2`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
+`;
+
+exports[`Text > it works with weights 3`] = `
+<div
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-bold_36ca96"
+  data-testid="Text"
+>
+  Hello world
+</div>
 `;
