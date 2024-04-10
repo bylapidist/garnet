@@ -11,7 +11,7 @@ const postcssImport = require('postcss-import');
 const srcDir = path.join(__dirname, 'src');
 const distDir = path.join(__dirname, 'dist');
 
-async function buildStyles(inputPath, outputPath) {
+async function buildStyles({ inputPath, outputPath }) {
     try {
         const css = await fs.readFile(inputPath, 'utf8');
         const result = await postcss([
@@ -30,37 +30,37 @@ async function buildStyles(inputPath, outputPath) {
     }
 }
 
-async function buildComponentStyles(componentName) {
-    const input = path.join(
-        srcDir,
-        'components',
-        componentName,
-        `${componentName}.module.css`,
-    );
-    const output = path.join(
-        distDir,
-        'components',
-        `${componentName}.module.css`,
-    );
-    await buildStyles(input, output);
-}
-
-async function buildGlobalStyles() {
-    const input = path.join(srcDir, 'global.css');
-    const output = path.join(distDir, 'global.css');
-    await buildStyles(input, output);
+async function getComponents() {
+    const cssFilePaths = await glob('components/*.module.css', {
+        cwd: srcDir,
+        onlyFiles: true,
+    });
+    return cssFilePaths.map((filePath) => {
+        const [basename] = path.basename(filePath).split('.module.css');
+        return basename;
+    });
 }
 
 (async () => {
-    const componentDirectories = await glob('components/*/', {
-        cwd: srcDir,
-        onlyDirectories: true,
-    });
+    const components = await getComponents();
 
-    for (const componentDir of componentDirectories) {
-        const componentName = path.basename(componentDir);
-        await buildComponentStyles(componentName);
+    for (const componentName of components) {
+        await buildStyles({
+            inputPath: path.join(
+                srcDir,
+                'components',
+                `${componentName}.module.css`,
+            ),
+            outputPath: path.join(
+                distDir,
+                'components',
+                `${componentName}.module.css`,
+            ),
+        });
     }
 
-    await buildGlobalStyles();
+    await buildStyles({
+        inputPath: path.join(srcDir, 'global.css'),
+        outputPath: path.join(distDir, 'global.css'),
+    });
 })();
