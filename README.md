@@ -111,7 +111,6 @@ Shared TypeScript types, including props for components.
 | `npm run fix`       | Automatically fix common linting issues using ESLint's auto-fixing capabilities.         |
 | `npm run watch`     | Continuously monitor projects for changes, triggering recompilation when necessary.      |
 | `npm run snapshots` | Update and regenerate snapshot tests.                                                    |
-| `npm run chromatic` | Run Chromatic visual regression tests on Storybook instance.                             |
 | `npm run typecheck` | Execute TypeScript type checker to catch type-related issues.                            |
 | `npm run commit`    | Create a new commit with Commitizen.                                                     |
 
