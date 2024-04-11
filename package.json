@@ -28,7 +28,6 @@
     "test": "npx lerna run test",
     "watch": "npx lerna run watch --stream",
     "snapshots": "npx lerna run snapshots",
-    "chromatic": "npx lerna run chromatic",
     "typecheck": "npx lerna run typecheck",
     "prepare": "test -d node_modules/husky && husky install",
     "commit": "cz",
