@@ -57,3 +57,10 @@ jobs:
           fi
 
           npx lerna publish from-git --yes
+
+      - name: Deploy website
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: apps/storybook/storybook-static
