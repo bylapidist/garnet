@@ -57,3 +57,4 @@ jobs:
           buildScriptName: build:storybook
           zip: true
           exitOnceUploaded: true
+          exitZeroOnChanges: true
