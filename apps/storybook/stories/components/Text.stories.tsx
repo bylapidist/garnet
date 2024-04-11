@@ -7,6 +7,24 @@ export default {
     title: 'Text',
     component: Text,
     decorators: [(getStory) => <App>{getStory()}</App>],
+    argTypes: {
+        as: {
+            options: ['p', 'div', 'span'],
+            control: { type: 'select' },
+        },
+        size: {
+            options: ['small', 'medium', 'large'],
+            control: { type: 'radio' },
+        },
+        weight: {
+            options: ['regular', 'medium', 'bold'],
+            control: { type: 'radio' },
+        },
+        family: {
+            options: ['body', 'heading', 'serif', 'mono'],
+            control: { type: 'radio' },
+        },
+    },
 } as Meta;
 
 const defaultArgs: CommonProps<TextProps> = {
