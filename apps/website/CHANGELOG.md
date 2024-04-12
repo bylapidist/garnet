@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/bylapidist/garnet/compare/v0.7.9...v0.8.0) (2024-04-12)
+
+
+### Features
+
+* **box:** port the Box component ([5d0eaad](https://github.com/bylapidist/garnet/commit/5d0eaadc642bfdffe719df5dbc842beb6855121a))
+
+
+
+
+
 ## [0.7.9](https://github.com/bylapidist/garnet/compare/v0.7.8...v0.7.9) (2024-04-12)
 
 
