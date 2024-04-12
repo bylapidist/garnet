@@ -14,15 +14,15 @@ export default {
         },
         size: {
             options: ['small', 'medium', 'large'],
-            control: { type: 'radio' },
+            control: { type: 'inline-radio' },
         },
         weight: {
             options: ['regular', 'medium', 'bold'],
-            control: { type: 'radio' },
+            control: { type: 'inline-radio' },
         },
         family: {
             options: ['body', 'heading', 'serif', 'mono'],
-            control: { type: 'radio' },
+            control: { type: 'inline-radio' },
         },
     },
 } as Meta;

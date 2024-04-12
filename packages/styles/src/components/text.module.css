@@ -4,42 +4,24 @@
     letter-spacing: var(--letter-spacing-looser);
 }
 
-.size-small {
-    font-size: var(--font-size-200);
-}
+.size-small { font-size: var(--font-size-200) }
 
-.size-medium {
-    font-size: var(--font-size-300);
-}
+.size-medium { font-size: var(--font-size-300) }
 
-.size-large {
-    font-size: var(--font-size-400);
-}
+.size-large { font-size: var(--font-size-400) }
 
-.family-body {
-    font-family: var(--font-family-body);
-}
 
-.family-heading {
-    font-family: var(--font-family-heading);
-}
+.family-body { font-family: var(--font-family-body) }
 
-.family-serif {
-    font-family: var(--font-family-serif);
-}
+.family-heading { font-family: var(--font-family-heading) }
 
-.family-mono {
-    font-family: var(--font-family-mono);
-}
+.family-serif { font-family: var(--font-family-serif) }
 
-.weight-regular {
-    font-weight: var(--font-weight-400);
-}
+.family-mono { font-family: var(--font-family-mono) }
 
-.weight-medium {
-    font-weight: var(--font-weight-500);
-}
 
-.weight-bold {
-    font-weight: var(--font-weight-700);
-}
+.weight-regular { font-weight: var(--font-weight-400) }
+
+.weight-medium { font-weight: var(--font-weight-500) }
+
+.weight-bold { font-weight: var(--font-weight-700) }

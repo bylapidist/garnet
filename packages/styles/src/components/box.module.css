@@ -1,0 +1,27 @@
+.this {}
+
+.gutter-none { padding: var(--size-0) }
+
+.gutter-small { padding: var(--size-1) }
+
+.gutter-medium { padding: var(--size-3) }
+
+.gutter-large { padding: var(--size-5) }
+
+
+.elevation-none { box-shadow: var(--elevation-none) }
+
+.elevation-small { box-shadow: var(--elevation-lower) }
+
+.elevation-medium { box-shadow: var(--elevation-higher) }
+
+.elevation-large { box-shadow: var(--elevation-highest) }
+
+
+.roundness-none { border-radius: var(--border-radius-none) }
+
+.roundness-small { border-radius: var(--border-radius-squarer) }
+
+.roundness-medium { border-radius: var(--border-radius-rounder) }
+
+.roundness-large { border-radius: var(--border-radius-roundest) }

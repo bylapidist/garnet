@@ -6,11 +6,9 @@ import '@lapidist/garnet-tokens/light.css';
 import '@lapidist/garnet-tokens/dark.css';
 import '@lapidist/garnet-styles/global.css';
 
-const App = ({
+export default function App({
     theme = 'light',
     children,
-}: React.PropsWithChildren<AppProps>) => (
-    <div className={`theme-${theme}`}>{children}</div>
-);
-
-export default App;
+}: React.PropsWithChildren<AppProps>) {
+    return <div className={`theme-${theme}`}>{children}</div>;
+}

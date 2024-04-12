@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Box > it matches snapshot 1`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with elevations 1`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with elevations 2`] = `
+<div
+  class="_this_02cc31 _elevation-small_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with elevations 3`] = `
+<div
+  class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with elevations 4`] = `
+<div
+  class="_this_02cc31 _elevation-large_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with gutters 1`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with gutters 2`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-small_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with gutters 3`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with gutters 4`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-large_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with roundness 1`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with roundness 2`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-small_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with roundness 3`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-medium_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
+
+exports[`Box > it works with roundness 4`] = `
+<div
+  class="_this_02cc31 _elevation-none_02cc31 _roundness-large_02cc31 _gutter-none_02cc31"
+  data-testid="Box"
+>
+  Hello world
+</div>
+`;
