@@ -4,15 +4,15 @@ import { cleanup, render, screen } from '@testing-library/react';
 import Text from './index';
 import {
     TextFamily,
-    TextSize,
     TextWeight,
 } from '@lapidist/garnet-types/src/components/Text';
+import { Size } from '@lapidist/garnet-types/src/common';
 
 afterEach(cleanup);
 
 const setup = (Component: React.ReactElement) => render(Component);
 
-const sizes: TextSize[] = ['small', 'medium', 'large'];
+const sizes: Size[] = ['small', 'medium', 'large'];
 const families: TextFamily[] = ['body', 'heading', 'serif', 'mono'];
 const weights: TextWeight[] = ['regular', 'medium', 'bold'];
 

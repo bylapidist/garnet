@@ -1,9 +1,9 @@
-export type TextSize = 'small' | 'medium' | 'large';
+import { SizeProps } from '../common';
+
 export type TextFamily = 'body' | 'heading' | 'serif' | 'mono';
 export type TextWeight = 'regular' | 'medium' | 'bold';
 
-export interface TextProps {
-    size?: TextSize;
+export type TextProps = {
     family?: TextFamily;
     weight?: TextWeight;
-}
+} & SizeProps;
