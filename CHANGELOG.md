@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.9](https://github.com/bylapidist/garnet/compare/v0.7.8...v0.7.9) (2024-04-12)
+
+
+### Bug Fixes
+
+* **website:** fix invariant error by wrapping App in body ([269acc6](https://github.com/bylapidist/garnet/commit/269acc69f47853f509d26130801d50ed9ab1488a))
+
+
+
+
+
 ## [0.7.8](https://github.com/bylapidist/garnet/compare/v0.7.7...v0.7.8) (2024-04-12)
 
 
