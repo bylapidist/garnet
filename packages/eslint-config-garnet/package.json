@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/eslint-config-garnet",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
