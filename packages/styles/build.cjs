@@ -23,7 +23,7 @@ async function buildStyles({ inputPath, outputPath }) {
             postcssSorting,
             postcssImport,
             postcssExtend,
-            postcssEach
+            postcssEach,
         ]).process(css, { from: inputPath, to: outputPath });
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, result.css);
