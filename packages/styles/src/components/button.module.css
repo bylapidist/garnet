@@ -1,4 +1,4 @@
-.button {
+.this {
     --text-color-primary: var(--colour-neutral-lightest);
     --text-color-secondary: var(--colour-primary-darkest);
     --text-color-tertiary: var(--colour-neutral-darkest);
@@ -20,8 +20,6 @@
     transition: box-shadow var(--transition-ease-in-slow);
     border-radius: var(--border-radius-squarer);
 
-    font-size: 48px;
-
     &:disabled {
         opacity: 0.75;
     }
@@ -42,5 +40,29 @@
     &.block {
         display: block;
         width: 100%;
+    }
+}
+
+.inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    grid-gap: var(--size-2);
+    border-width: var(--border-width-thinner);
+    background-color: var(--colour-neutral-lightest);
+    border-radius: inherit;
+
+    @each $level in primary, secondary, tertiary, danger {
+        &.level-$(level) {
+            color: var(--text-color-$(level));
+            background-color: var(--background-color-$(level));
+            border-color: var(--border-color-$(level));
+
+            &:hover {
+                border-color: var(--border-hover-color-$(level));
+            }
+        }
     }
 }

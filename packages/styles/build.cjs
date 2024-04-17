@@ -7,6 +7,8 @@ const postcssNested = require('postcss-nested');
 const postcssPresetEnv = require('postcss-preset-env');
 const postcssSorting = require('postcss-sorting');
 const postcssImport = require('postcss-import');
+const postcssExtend = require('postcss-extend');
+const postcssEach = require('postcss-each');
 
 const srcDir = path.join(__dirname, 'src');
 const distDir = path.join(__dirname, 'dist');
@@ -20,6 +22,8 @@ async function buildStyles({ inputPath, outputPath }) {
             postcssPresetEnv,
             postcssSorting,
             postcssImport,
+            postcssExtend,
+            postcssEach
         ]).process(css, { from: inputPath, to: outputPath });
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, result.css);
