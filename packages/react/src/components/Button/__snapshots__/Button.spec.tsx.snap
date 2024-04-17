@@ -1,10 +1,142 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > it matches snapshot 1`] = `
+exports[`Button > it works block 1`] = `
 <button
-  class="_button_fd79ec"
-  type="button"
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec _block_fd79ec"
+  data-testid="Button"
 >
-  hello
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works disabled 1`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+  disabled=""
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with defaults 1`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with levels 1`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with levels 2`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-secondary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with levels 3`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-tertiary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with levels 4`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-danger_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with sizes 1`] = `
+<button
+  class="_this_36ca96 _size-small_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-small_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with sizes 2`] = `
+<button
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-medium_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
+</button>
+`;
+
+exports[`Button > it works with sizes 3`] = `
+<button
+  class="_this_36ca96 _size-large_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_fd79ec"
+  data-testid="Button"
+>
+  <span
+    class="_this_02cc31 _elevation-medium_02cc31 _roundness-none_02cc31 _gutter-large_02cc31 _inner_fd79ec _level-primary_fd79ec"
+    data-testid="Button-inner"
+  >
+    Hello world
+  </span>
 </button>
 `;
