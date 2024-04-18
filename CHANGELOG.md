@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/bylapidist/garnet/compare/v0.9.4...v0.10.0) (2024-04-18)
+
+
+### Features
+
+* **link:** port Link component ([3455f7c](https://github.com/bylapidist/garnet/commit/3455f7c91ca1fdd85be57d93990980c86630be32))
+
+
+
+
+
 ## [0.9.4](https://github.com/bylapidist/garnet/compare/v0.9.3...v0.9.4) (2024-04-18)
 
 **Note:** Version bump only for package @lapidist/garnet
