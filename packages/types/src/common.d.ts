@@ -7,11 +7,11 @@ export type Size = 'small' | 'medium' | 'large';
 export type NullableSize = 'none' | Size;
 
 export type LevelProps<T> = {
-    level: Level;
+    level?: Level;
 } & T;
 
 export type SizeProps<T> = {
-    size: Size;
+    size?: Size;
 } & T;
 
 export type CommonProps<T> = {
