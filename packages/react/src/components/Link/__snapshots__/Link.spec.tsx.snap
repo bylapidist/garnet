@@ -1,0 +1,159 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Link > it works with defaults 1`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+  href="#"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with families 1`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with families 2`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-heading_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with families 3`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-serif_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with families 4`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-mono_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with sizes 1`] = `
+<a
+  class="_this_36ca96 _size-small_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+  href="#"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with sizes 2`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+  href="#"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with sizes 3`] = `
+<a
+  class="_this_36ca96 _size-large_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+  href="#"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with weights 1`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-regular_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with weights 2`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-medium_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;
+
+exports[`Link > it works with weights 3`] = `
+<a
+  class="_this_36ca96 _size-medium_36ca96 _family-body_36ca96 _weight-bold_36ca96 _this_330137"
+  data-testid="Link"
+>
+  <span
+    class="_this_02cc31 _elevation-none_02cc31 _roundness-none_02cc31 _gutter-none_02cc31 _inner_330137"
+    data-testid="Link-inner"
+  >
+    Hello world
+  </span>
+</a>
+`;

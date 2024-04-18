@@ -1,0 +1,19 @@
+.this {
+    display: inline-flex;
+    color: var(--colour-primary-darkest);
+    text-underline-offset: var(--size-1);
+    text-decoration-color: var(--colour-primary-light);
+    text-decoration-thickness: var(--border-width-thinner);
+    text-decoration-line: underline;
+
+    &:hover {
+        text-decoration-color: var(--colour-primary-dark);
+        cursor: pointer;
+    }
+}
+
+.inner {
+    display: inline-flex;
+    align-items: flex-start;
+    grid-gap: var(--size-2);
+}
