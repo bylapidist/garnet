@@ -24,8 +24,12 @@
     "clean": "rimraf dist",
     "build": "npm run clean && node build.cjs",
     "watch": "nodemon --watch src -e css ./build.cjs",
-    "lint": "eslint .",
-    "fix": "eslint . --fix"
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"**/**/*.css\"",
+    "fix": "npm run fix:js && npm run fix:css",
+    "fix:js": "eslint . --fix",
+    "fix:css": "stylelint \"**/**/*.css\" --fix"
   },
   "dependencies": {
     "@lapidist/garnet-tokens": "^0.10.0"
@@ -39,7 +43,10 @@
     "postcss-import": "16.1.0",
     "postcss-nested": "6.0.1",
     "postcss-preset-env": "9.5.6",
+    "postcss-reporter": "7.1.0",
     "postcss-sorting": "8.0.2",
-    "rimraf": "5.0.5"
+    "rimraf": "5.0.5",
+    "stylelint": "16.3.1",
+    "stylelint-config-standard": "36.0.0"
   }
 }

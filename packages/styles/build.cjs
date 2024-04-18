@@ -9,6 +9,8 @@ const postcssSorting = require('postcss-sorting');
 const postcssImport = require('postcss-import');
 const postcssExtend = require('postcss-extend');
 const postcssEach = require('postcss-each');
+const postcssReporter = require('postcss-reporter');
+const stylelint = require('stylelint');
 
 const srcDir = path.join(__dirname, 'src');
 const distDir = path.join(__dirname, 'dist');
@@ -18,12 +20,15 @@ async function buildStyles({ inputPath, outputPath }) {
         const css = await fs.readFile(inputPath, 'utf8');
         const result = await postcss([
             autoprefixer,
+            postcssImport({
+                plugins: [stylelint],
+            }),
             postcssNested,
             postcssPresetEnv,
             postcssSorting,
-            postcssImport,
             postcssExtend,
             postcssEach,
+            postcssReporter({ clearReportedMessages: true }),
         ]).process(css, { from: inputPath, to: outputPath });
         await fs.mkdir(path.dirname(outputPath), { recursive: true });
         await fs.writeFile(outputPath, result.css);
