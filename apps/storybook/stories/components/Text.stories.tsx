@@ -42,6 +42,7 @@ const Template: StoryFn<CommonProps<TextProps>> = (args) => (
         faucibus orci luctus et ultrices posuere cubilia curae.
     </Text>
 );
+
 export const SmallSize: StoryObj<CommonProps<TextProps>> = {
     render: Template,
 
