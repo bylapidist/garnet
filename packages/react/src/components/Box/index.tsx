@@ -19,7 +19,6 @@ export default function Box({
             data-testid={testId}
             id={id}
             className={cx(
-                styles.this,
                 styles[`elevation-${elevation}`],
                 styles[`roundness-${roundness}`],
                 styles[`gutter-${gutter}`],
