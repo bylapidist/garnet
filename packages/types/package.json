@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-types",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/bylapidist/garnet#readme",
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint . --fix"
+    "fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit -p ../react/tsconfig.json"
   }
 }
