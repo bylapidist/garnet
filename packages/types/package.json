@@ -6,7 +6,7 @@
     "name": "Brett Dorrans",
     "email": "hello@lapidist.net"
   },
-  "main": "src/index.ts",
+  "main": "index.ts",
   "license": "MIT",
   "repository": {
     "type": "git",

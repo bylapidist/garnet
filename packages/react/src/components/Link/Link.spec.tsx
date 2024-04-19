@@ -2,11 +2,8 @@ import React from 'react';
 import { describe, expect, test, afterEach } from 'vitest';
 import { cleanup, render, screen } from '@testing-library/react';
 import Link from './index';
-import {
-    TextFamily,
-    TextWeight,
-} from '@lapidist/garnet-types/src/components/Text';
-import { Size } from '@lapidist/garnet-types/src/common';
+import { TextFamily, TextWeight } from '@lapidist/garnet-types/components/Text';
+import { Size } from '@lapidist/garnet-types/common';
 
 afterEach(cleanup);
 

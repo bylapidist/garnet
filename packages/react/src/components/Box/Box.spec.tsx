@@ -2,7 +2,7 @@ import React from 'react';
 import { describe, expect, test, afterEach } from 'vitest';
 import { cleanup, render, screen } from '@testing-library/react';
 import Box from './index';
-import { NullableSize } from '@lapidist/garnet-types/src/common';
+import { NullableSize } from '@lapidist/garnet-types/common';
 
 afterEach(cleanup);
 
