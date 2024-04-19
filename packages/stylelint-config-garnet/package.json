@@ -1,0 +1,28 @@
+{
+  "name": "@lapidist/stylelint-config-garnet",
+  "version": "0.10.0",
+  "private": true,
+  "author": {
+    "name": "Brett Dorrans",
+    "email": "hello@lapidist.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bylapidist/garnet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bylapidist/garnet/issues"
+  },
+  "homepage": "https://github.com/bylapidist/garnet#readme",
+  "main": "index.cjs",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "stylelint-config-css-modules": "4.4.0",
+    "stylelint-config-recommended": "14.0.0",
+    "stylelint-no-unsupported-browser-features": "8.0.0"
+  }
+}
