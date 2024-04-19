@@ -12,7 +12,6 @@ const postcssEach = require('postcss-each');
 const postcssReporter = require('postcss-reporter');
 const stylelint = require('stylelint');
 
-const srcDir = path.join(__dirname, 'src');
 const distDir = path.join(__dirname, 'dist');
 
 async function buildStyles({ inputPath, outputPath }) {
@@ -41,7 +40,7 @@ async function buildStyles({ inputPath, outputPath }) {
 
 async function getComponents() {
     const cssFilePaths = await glob('components/*.module.css', {
-        cwd: srcDir,
+        cwd: __dirname,
         onlyFiles: true,
     });
     return cssFilePaths.map((filePath) => {
@@ -55,11 +54,7 @@ async function getComponents() {
 
     for (const componentName of components) {
         await buildStyles({
-            inputPath: path.join(
-                srcDir,
-                'components',
-                `${componentName}.module.css`,
-            ),
+            inputPath: path.join('components', `${componentName}.module.css`),
             outputPath: path.join(
                 distDir,
                 'components',
@@ -69,7 +64,7 @@ async function getComponents() {
     }
 
     await buildStyles({
-        inputPath: path.join(srcDir, 'global.css'),
+        inputPath: 'global.css',
         outputPath: path.join(distDir, 'global.css'),
     });
 })();

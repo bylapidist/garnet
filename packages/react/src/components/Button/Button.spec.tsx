@@ -2,7 +2,7 @@ import React from 'react';
 import { describe, expect, test, afterEach, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import Button from './index';
-import { Size, Level } from '@lapidist/garnet-types/src/common';
+import { Size, Level } from '@lapidist/garnet-types/common';
 
 afterEach(cleanup);
 
