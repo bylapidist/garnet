@@ -53,7 +53,7 @@
     "jsdom": "24.0.0",
     "lerna": "8.1.2",
     "nodemon": "3.1.0",
-    "stylelint": "16.3.1",
+    "stylelint": "16.4.0",
     "typescript": "5.4.5",
     "vite": "5.2.10",
     "vite-plugin-dts": "3.9.0"
