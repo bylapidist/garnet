@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.12](https://github.com/bylapidist/garnet/compare/v0.10.11...v0.10.12) (2024-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([165f345](https://github.com/bylapidist/garnet/commit/165f345ea722b951d96d535d836ac509c6c57486))
+
+
+
+
+
 ## [0.10.11](https://github.com/bylapidist/garnet/compare/v0.10.10...v0.10.11) (2024-04-25)
 
 
