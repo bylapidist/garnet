@@ -45,6 +45,6 @@
     "postcss-preset-env": "9.5.12",
     "postcss-reporter": "7.1.0",
     "postcss-sorting": "8.0.2",
-    "rimraf": "5.0.6"
+    "rimraf": "5.0.7"
   }
 }
