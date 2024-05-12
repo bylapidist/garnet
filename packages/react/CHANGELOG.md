@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.22](https://github.com/bylapidist/garnet/compare/v0.10.21...v0.10.22) (2024-05-12)
+
+**Note:** Version bump only for package @lapidist/garnet-react
+
+
+
+
+
 ## [0.10.21](https://github.com/bylapidist/garnet/compare/v0.10.20...v0.10.21) (2024-05-11)
 
 **Note:** Version bump only for package @lapidist/garnet-react
