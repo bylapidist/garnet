@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.33](https://github.com/bylapidist/garnet/compare/v0.10.32...v0.10.33) (2024-06-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-n to v17.8.1 ([59e192c](https://github.com/bylapidist/garnet/commit/59e192cf2b4ec99a60184a24d3cc2427d71080de))
+
+
+
+
+
 ## [0.10.32](https://github.com/bylapidist/garnet/compare/v0.10.31...v0.10.32) (2024-06-05)
 
 
