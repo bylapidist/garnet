@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.39](https://github.com/bylapidist/garnet/compare/v0.10.38...v0.10.39) (2024-06-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-recommended to v14.0.1 ([5175970](https://github.com/bylapidist/garnet/commit/5175970d54a4b3a6ed83cf7e62d3e7ef7ee8bced))
+
+
+
+
+
 ## [0.10.4](https://github.com/bylapidist/garnet/compare/v0.10.3...v0.10.4) (2024-04-19)
 
 
