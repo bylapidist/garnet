@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-website",
-  "version": "0.10.43",
+  "version": "0.10.46",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -23,7 +23,7 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.10.43",
+    "@lapidist/garnet-react": "^0.10.46",
     "next": "^14.1.4"
   }
 }
