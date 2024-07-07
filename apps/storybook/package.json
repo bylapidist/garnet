@@ -1,6 +1,6 @@
 {
   "name": "@lapidist/garnet-storybook",
-  "version": "0.10.47",
+  "version": "0.10.48",
   "private": true,
   "author": {
     "name": "Brett Dorrans",
@@ -23,7 +23,7 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@lapidist/garnet-react": "^0.10.47",
+    "@lapidist/garnet-react": "^0.10.48",
     "react": "18.x",
     "react-dom": "18.x"
   },
