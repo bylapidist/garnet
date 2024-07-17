@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.54](https://github.com/bylapidist/garnet/compare/v0.10.53...v0.10.54) (2024-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v5.2.1 ([8f8587b](https://github.com/bylapidist/garnet/commit/8f8587b98e2f9ef1cfd6ef60aeebea9a6e5604cd))
+
+
+
+
+
 ## [0.10.53](https://github.com/bylapidist/garnet/compare/v0.10.52...v0.10.53) (2024-07-15)
 
 
