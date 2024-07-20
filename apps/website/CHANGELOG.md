@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.55](https://github.com/bylapidist/garnet/compare/v0.10.54...v0.10.55) (2024-07-20)
+
+**Note:** Version bump only for package @lapidist/garnet-website
+
+
+
+
+
 ## [0.10.50](https://github.com/bylapidist/garnet/compare/v0.10.49...v0.10.50) (2024-07-08)
 
 **Note:** Version bump only for package @lapidist/garnet-website
