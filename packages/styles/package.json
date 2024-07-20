@@ -41,7 +41,7 @@
     "postcss-each": "1.1.0",
     "postcss-extend": "1.0.5",
     "postcss-import": "16.1.0",
-    "postcss-nested": "6.0.1",
+    "postcss-nested": "6.2.0",
     "postcss-preset-env": "9.6.0",
     "postcss-reporter": "7.1.0",
     "postcss-sorting": "8.0.2",
