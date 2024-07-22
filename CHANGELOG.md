@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.59](https://github.com/bylapidist/garnet/compare/v0.10.58...v0.10.59) (2024-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-promise to v6.6.0 ([769f309](https://github.com/bylapidist/garnet/commit/769f309153872f81c6530a965547e5954143d55c))
+
+
+
+
+
 ## [0.10.58](https://github.com/bylapidist/garnet/compare/v0.10.57...v0.10.58) (2024-07-20)
 
 
