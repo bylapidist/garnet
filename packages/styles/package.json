@@ -37,7 +37,7 @@
   "devDependencies": {
     "autoprefixer": "10.4.19",
     "fast-glob": "3.3.2",
-    "postcss": "8.4.39",
+    "postcss": "8.4.40",
     "postcss-each": "1.1.0",
     "postcss-extend": "1.0.5",
     "postcss-import": "16.1.0",
