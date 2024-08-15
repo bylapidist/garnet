@@ -35,7 +35,7 @@
     "@lapidist/garnet-tokens": "^0.10.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "fast-glob": "3.3.2",
     "postcss": "8.4.40",
     "postcss-each": "1.1.0",
