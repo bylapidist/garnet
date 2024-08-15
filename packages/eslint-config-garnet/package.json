@@ -29,7 +29,7 @@
     "eslint-config-react": "1.1.7",
     "eslint-plugin-compat": "5.0.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.10.1",
+    "eslint-plugin-n": "17.10.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-promise": "6.6.0",
     "eslint-plugin-react": "7.35.0",
