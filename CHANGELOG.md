@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.72](https://github.com/bylapidist/garnet/compare/v0.10.71...v0.10.72) (2024-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.57.1 ([09eefae](https://github.com/bylapidist/garnet/commit/09eefae296159d318429e44e6b28853e0615f3d5))
+
+
+
+
+
 ## [0.10.71](https://github.com/bylapidist/garnet/compare/v0.10.70...v0.10.71) (2024-10-13)
 
 **Note:** Version bump only for package @lapidist/garnet
