@@ -49,12 +49,12 @@ jobs:
       - name: Run tests
         run: npm run test
 
-      - name: Publish to Chromatic
-        uses: chromaui/action@latest
-        with:
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          workingDir: apps/storybook
-          buildScriptName: build:storybook
-          zip: true
-          exitOnceUploaded: true
-          exitZeroOnChanges: true
+     # - name: Publish to Chromatic
+     #   uses: chromaui/action@latest
+     #   with:
+     #     projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+     #     workingDir: apps/storybook
+     #     buildScriptName: build:storybook
+     #     zip: true
+     #     exitOnceUploaded: true
+     #     exitZeroOnChanges: true
