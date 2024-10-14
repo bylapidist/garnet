@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.80](https://github.com/bylapidist/garnet/compare/v0.10.79...v0.10.80) (2024-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.31.0 ([0bf59e9](https://github.com/bylapidist/garnet/commit/0bf59e93b87c9b2ee9d516212a1c39fe7f7a6cb5))
+
+
+
+
+
 ## [0.10.79](https://github.com/bylapidist/garnet/compare/v0.10.78...v0.10.79) (2024-10-14)
 
 **Note:** Version bump only for package @lapidist/garnet
