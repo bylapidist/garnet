@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.83](https://github.com/bylapidist/garnet/compare/v0.10.82...v0.10.83) (2024-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v0.9.0 ([1484e3d](https://github.com/bylapidist/garnet/commit/1484e3da7005f3ffdda8983e076500a88e9a9ebe))
+
+
+
+
+
 ## [0.10.82](https://github.com/bylapidist/garnet/compare/v0.10.81...v0.10.82) (2024-10-15)
 
 
