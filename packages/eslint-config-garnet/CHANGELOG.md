@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.82](https://github.com/bylapidist/garnet/compare/v0.10.81...v0.10.82) (2024-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.37.1 ([906cd02](https://github.com/bylapidist/garnet/commit/906cd026910069c0e07ce79c5171839def8bb50d))
+
+
+
+
+
 ## [0.10.81](https://github.com/bylapidist/garnet/compare/v0.10.80...v0.10.81) (2024-10-14)
 
 
