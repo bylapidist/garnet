@@ -23,6 +23,6 @@
   "dependencies": {
     "stylelint-config-css-modules": "4.4.0",
     "stylelint-config-recommended": "14.0.1",
-    "stylelint-no-unsupported-browser-features": "8.0.1"
+    "stylelint-no-unsupported-browser-features": "8.0.2"
   }
 }
