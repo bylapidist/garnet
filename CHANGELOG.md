@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.93](https://github.com/bylapidist/garnet/compare/v0.10.92...v0.10.93) (2025-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.37.3 ([c5a5672](https://github.com/bylapidist/garnet/commit/c5a56721cb0f39bae1f52a567b447b4d4bfbf15e))
+
+
+
+
+
 ## [0.10.92](https://github.com/bylapidist/garnet/compare/v0.10.91...v0.10.92) (2025-01-09)
 
 **Note:** Version bump only for package @lapidist/garnet
