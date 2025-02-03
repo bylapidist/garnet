@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.109](https://github.com/bylapidist/garnet/compare/v0.10.108...v0.10.109) (2025-02-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-no-unsupported-browser-features to v8.0.4 ([74f9f8e](https://github.com/bylapidist/garnet/commit/74f9f8e373dc23986f40f321ccfc37ea798692e5))
+
+
+
+
+
 ## [0.10.94](https://github.com/bylapidist/garnet/compare/v0.10.93...v0.10.94) (2025-01-10)
 
 
